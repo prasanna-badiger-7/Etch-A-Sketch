@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" lang="en-US">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Etch-A-Sketch</title>
+        <link rel="stylesheet" href="./style.css">
+        <script defer src="./script.js"></script> 
+    </head>
+
+    <audio id="scribble">
+        <source src="./audio/scribble.mp3" type="audio/mpeg">
+    </audio>
+
+    <body>
+        <center class="container">
+            <div class="title">
+                Etch-A-Sketch
+            </div>
+            <div class="grid-container">
+
+            </div>
+            <div class="features">
+                <div class="choose-size">
+                    <label>Choose a size:</label>
+                    <select name="size" id="dim">
+                        <option value="16">16x16</option>
+                        <option value="32">32x32</option>
+                        <option value="64">64x64</option>
+                        <option value="100">100x100</option>
+                    </select>
+                </div>
+                <button class="reset">Reset</button>
+            </div>
+        
+        </center>
+    </body>
+</html>

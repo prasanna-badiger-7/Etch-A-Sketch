@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Pacifico&family=Single+Day&display=swap');
+
+body {
+  background-color: lightpink;
+}
+
+.title {
+  margin-top: -10px;
+  font-family: 'Pacifico', cursive; 
+  font-size: 42px;
+} 
+
+
+.grid-container {
+    display: grid;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+  }
+
+
+.grid-item {
+  background-color:honeydew;
+}
+
+.features {
+  width: 500px;
+  margin-top: 8px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+#dim {
+  font-size: 16px;
+}
+
+.reset {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
